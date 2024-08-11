@@ -12,8 +12,7 @@ SiteSentry is a Chrome extension designed to help users manage their time spent 
 
 ## Current Status
 
-Please note that the extension is a work in progress and may have some errors. Certain planned features, such as customizable time restrictions and detailed weekly time visualization, are currently commented out and will be added in future updates. We appreciate your patience and feedback as we continue to improve the extension.
-
+Please note that the extension is a work in progress and may have some errors. Certain planned features, such as customizable time restrictions and detailed weekly time visualization, are currently commented out and will be added in future updates.
 ## Installation
 
 To install SiteSentry:
