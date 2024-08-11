@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# SiteSentry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
+SiteSentry is a Chrome extension designed to help users manage their time spent on specific websites. This tool aims to enhance productivity by allowing users to set restrictions on website usage and visualize their time spent on different sites.
 
-Currently, two official plugins are available:
+Features
+Time Restrictions: Set limits on the amount of time you can spend on particular websites. Restrict usage to specific time periods during the day to help manage your online habits.
+Time Visualization: View detailed reports on how much time you've spent on websites throughout the week. This feature helps you understand your browsing patterns and make informed adjustments to your online behavior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Current Status
+Please note that the extension is a work in progress and may have some errors. Certain planned features, such as customizable time restrictions and detailed weekly time visualization, are currently commented out and will be added in future updates.
+nstallation
+To install SiteSentry:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Download or clone the repository.
+Open Chrome and navigate to chrome://extensions/.
+Enable "Developer mode" by toggling the switch in the top right.
+Click "Load unpacked" and select the extension’s directory.
+Contributing
+We welcome contributions to enhance the functionality and usability of SiteSentry
